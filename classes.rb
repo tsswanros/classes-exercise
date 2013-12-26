@@ -3,4 +3,9 @@ class BankAccout
     @global_balance = 0
     @transactions = []
   end
+
+  def deposit_money
+
+  end
+
 end
