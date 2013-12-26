@@ -1,5 +1,6 @@
-class BankAccout
+class BankAccount
   attr_accessor :global_balance
+
   def intialize(name)
     @global_balance = 0
     @transactions = []
@@ -11,5 +12,5 @@ class BankAccout
     @global_balance += money
     puts "Your global balance is now #{@global_balance}"
   end
-
 end
+
