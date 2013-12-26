@@ -1,4 +1,5 @@
 class BankAccout
+  attr_accessor :global_balance
   def intialize(name)
     @global_balance = 0
     @transactions = []
