@@ -11,4 +11,8 @@ class BankAccount
     @global_balance += money.to_f
     puts "Your global balance is now #{@global_balance}"
   end
+
+  def current_balance
+
+  end
 end
