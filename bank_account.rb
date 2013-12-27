@@ -1,16 +1,15 @@
 class BankAccount
-  attr_accessor :global_balance
+  #attr_accessor :global_balance
 
-  def intialize
+  def initialize(name)
     @global_balance = 0
     @transactions = []
   end
 
   def deposit_money
-    print "How much money would you like to deposit?:"
+    print "How much money would you like to deposit?: "
     money = gets.chomp
-    @global_balance += money
+    @global_balance += money.to_f
     puts "Your global balance is now #{@global_balance}"
   end
 end
-
