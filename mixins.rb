@@ -5,7 +5,7 @@ class Person
     @name = name
   end
 
-  def to_s
+  def to_s #the puts method on an objects calls to_s on that object
     "#{@name}"
   end
 
