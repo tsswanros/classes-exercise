@@ -13,6 +13,6 @@ class BankAccount
   end
 
   def current_balance
-
+    puts "Your current balance is of $#{@global_balance}"
   end
 end
