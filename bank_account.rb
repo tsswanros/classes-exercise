@@ -1,5 +1,4 @@
 class BankAccount
-  #attr_accessor :global_balance
 
   def initialize(name)
     @global_balance = 0
