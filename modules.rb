@@ -7,8 +7,7 @@ module Parent
 end
 
 class Child1
-  include Parent
+  extend Parent
 end
 
-@child = Child1.new
-puts @child.message
+puts Child1.message
